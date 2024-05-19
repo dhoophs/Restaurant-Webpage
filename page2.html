@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>The Royal Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hotelstyle.css">
+    
+	
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			color: #ffffff;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.menu-item {
+			margin: 30px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		.menu-item h2 {
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.menu-item p {
+			color: #666;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.menu-item .price {
+			color: #333;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="hotel.html">Home</a></li>
+                <li><a href="hotelMenu.html">Menu</a></li>
+                <li><a href="hotelBooktable.html">Book</a> </li>
+                <li><a href="hotelAboutus.html">About</a></li>
+                <li><a href="hotelContactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Food Menu</h1>
+	<div style="text-align: center;">
+	<select onchange="window.location.href=this.value;">
+		<option value="hotelMenu.html">Appetizers</option>
+		<option value="page2.html" selected>Staters</option>
+		<option value="page3.html">Main Course</option>
+		<option value="page4.html">Dessert</option>
+		<option value="page5.html">Drinks</option>
+	</select>
+	</div>
+	  
+	<div class="menu-item">
+		<h2>Pani Puri</h2>
+		<p>Small, crispy, hollow balls filled with a spicy and tangy water, mashed potatoes, chickpeas, onions, and chutney. They're meant to be eaten in one bite for an explosion of flavors in your mouth</p>
+		<div class="price">Rs.60</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Bhel Puri</h2>
+		<p>A popular street food snack made with puffed rice, chopped vegetables (like onions, tomatoes, and cucumber), sev (crispy fried noodles), chutney, and sometimes boiled potatoes.</p>
+		<div class="price">Rs.120</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Tandoori Chicken Wings</h2>
+		<p>Chicken wings marinated in yogurt and spices, then cooked in a tandoor oven until slightly charred and crispy on the outside, juicy and tender on the inside.</p>
+		<div class="price">Rs.360</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Aloo Tikki Chaat</h2>
+		<p>mashed potato patties topped with chickpeas, chutney, yogurt, and spices.</p>
+		<div class="price">Rs.110</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Masala Papad</h2>
+		<p>Crispy papad (thin, crispy Indian crackers made from lentil or chickpea flour) topped with chopped onions, tomatoes, and spices.</p>
+		<div class="price">Rs.88</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Chicken 65</h2>
+		<p>Bite-sized chicken pieces marinated in a spicy blend of Indian spices and deep-fried until crispy and golden brown.</p>
+		<div class="price">Rs.650</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Samosa Chaat</h2>
+		<p>crushed samosas topped with chickpeas, chutney, yogurt, and spices.
+			Hara Bhara Kabab: vegetarian kababs made with mashed green vegetables (like spinach and peas), potatoes, and spices, then grilled or fried until crispy.</p>
+		<div class="price">Rs.120</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Chilli Paneer</h2>
+		<p>Deep-fried paneer (cottage cheese) cubes tossed in a spicy and tangy sauce made with chili, garlic, and soy sauce.</p>
+		<div class="price">Rs.260</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Dahi Vada</h2>
+		<p>Lentil fritters soaked in yogurt and topped with chutney and spices.</p>
+		<div class="price">Rs.200</div>
+	</div>
+</body>
+</html>

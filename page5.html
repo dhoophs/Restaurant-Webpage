@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>The Royal Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hotelstyle.css">
+    
+	
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			color: #ffffff;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.menu-item {
+			margin: 30px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		.menu-item h2 {
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.menu-item p {
+			color: #666;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.menu-item .price {
+			color: #333;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="hotel.html">Home</a></li>
+                <li><a href="hotelMenu.html">Menu</a></li>
+                <li><a href="hotelBooktable.html">Book</a> </li>
+                <li><a href="hotelAboutus.html">About</a></li>
+                <li><a href="hotelContactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Food Menu</h1>
+	<div style="text-align: center;">
+	<select onchange="window.location.href=this.value;">
+		<option value="hotelMenu.html">Appetizers</option>
+		<option value="page2.html">Staters</option>
+		<option value="page3.html">Main Course</option>
+		<option value="page4.html">Dessert</option>
+		<option value="page5.html" selected>Drinks</option>
+	</select>
+	</div>
+	  
+	<div class="menu-item">
+		<h2>Mango Lassi</h2>
+		<p>A popular Indian drink made with yogurt, milk, mango pulp, and sugar. It's thick, creamy, and sweet, and is perfect for cooling down after a spicy meal.</p>
+		<div class="price">Rs.80</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Masala Chai</h2>
+		<p>A traditional Indian tea made with black tea leaves, milk, and a blend of spices like cinnamon, cardamom, ginger, and cloves. It's usually sweetened with sugar and can be served hot or cold.</p>
+		<div class="price">Rs.60</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Nimbu Pani</h2>
+		<p>A refreshing lemonade made with freshly squeezed lemon juice, water, and sugar, and sometimes flavored with mint leaves or cumin powder.</p>
+		<div class="price">Rs.70</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Thandai</h2>
+		<p>A creamy and nutty drink made with milk, sugar, and a blend of nuts and spices like almonds, pistachios, fennel seeds, and cardamom. It's usually served chilled and is popular during the festival of Holi</p>
+		<div class="price">Rs.130</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Aam Panna</h2>
+		<p>A refreshing drink made with raw mangoes, sugar, and a blend of spices like cumin and black salt. It's usually served chilled and is perfect for hot summer days.</p>
+		<div class="price">Rs.110</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Jaljeera</h2>
+		<p>A spicy and tangy drink made with cumin, mint, coriander, and tamarind, mixed with water and served chilled. It's a popular summer drink in India.</p>
+		<div class="price">Rs.100</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Chaas</h2>
+		<p>A buttermilk-based drink made with yogurt, water, and spices like cumin, ginger, and green chili. It's a cooling drink and is usually served with meals in India.</p>
+		<div class="price">Rs.50</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Rose Milk</h2>
+		<p>A sweet and fragrant drink made with milk, rose syrup, and sometimes topped with nuts like pistachios and almonds. It's a popular drink in South India.</p>
+		<div class="price">Rs.180</div>
+	</div>
+
+    <div class="menu-item">
+		<h2>Badam Milk</h2>
+		<p>A rich and creamy drink made with milk, sugar, and almond paste, and sometimes flavored with cardamom and saffron. It's usually served hot and is a popular drink during the winter months.</p>
+		<div class="price">Rs.190</div>
+	</div>
+
+    <div class="menu-item">
+		<h2>Sharbat</h2>
+		<p>A sweet and refreshing drink made with fruit or flower syrup, water, and sometimes topped with lime juice and mint leaves. Some popular flavors include rose, khus, and orange.</p>
+		<div class="price">Rs.180</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>The Royal Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hotelstyle.css">
+    
+	
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			color: #ffffff;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.menu-item {
+			margin: 30px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		.menu-item h2 {
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.menu-item p {
+			color: #666;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.menu-item .price {
+			color: #333;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="hotel.html">Home</a></li>
+                <li><a href="hotelMenu.html">Menu</a></li>
+                <li><a href="hotelBooktable.html">Book</a> </li>
+                <li><a href="hotelAboutus.html">About</a></li>
+                <li><a href="hotelContactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Food Menu</h1>
+	<div style="text-align: center;">
+	<select onchange="window.location.href=this.value;">
+		<option value="hotelMenu.html">Appetizers</option>
+		<option value="page2.html">Staters</option>
+		<option value="page3.html" selected>Main Course</option>
+		<option value="page4.html">Dessert</option>
+		<option value="page5.html">Drinks</option>
+	</select>
+	</div>
+	  
+	<div class="menu-item">
+		<h2>Butter Chicken</h2>
+		<p>Chicken in a creamy tomato-based sauce</p>
+		<div class="price">Rs.660</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Palak Paneer</h2>
+		<p>Spinach and cottage cheese curry</p>
+		<div class="price">Rs.420</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Chana Masala</h2>
+		<p>Spiced chickpea curry</p>
+		<div class="price">Rs.500</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Biryani</h2>
+		<p>Aromatic rice dish with meat or vegetables</p>
+		<div class="price">Rs.854</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Naan</h2>
+		<p>Oven-baked flatbread</p>
+		<div class="price">Rs.100</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Rogan Josh</h2>
+		<p>A Kashmiri lamb dish cooked in a rich tomato and onion gravy, flavored with aromatic spices like cardamom, cinnamon, and cloves.</p>
+		<div class="price">Rs.200</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Malai Kofta</h2>
+		<p>Vegetarian dumplings made with mashed potatoes, paneer, and mixed vegetables, cooked in a creamy tomato and cashew nut gravy.</p>
+		<div class="price">Rs.380</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Chicken Korma</h2>
+		<p>chicken cooked in a mild and creamy sauce made with yogurt, cream, and nuts, and flavored with aromatic spices like saffron and cardamom.</p>
+		<div class="price">Rs.635</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Fish Curry</h2>
+		<p>A spicy and tangy curry made with fish (usually freshwater fish like Rohu or Katla) cooked with tomatoes, onions, and a blend of spices like cumin, coriander, and turmeric.</p>
+		<div class="price">Rs.575</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Baingan Bharta</h2>
+		<p>A vegetarian dish made with roasted and mashed eggplant cooked with tomatoes, onions, and spices, and garnished with fresh cilantro.</p>
+		<div class="price">Rs.220</div>
+	</div>
+
+</body>
+</html>

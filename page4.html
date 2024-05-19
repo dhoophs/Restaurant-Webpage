@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>The Royal Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hotelstyle.css">
+    
+	
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			color: #ffffff;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.menu-item {
+			margin: 30px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		.menu-item h2 {
+			color: #333;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.menu-item p {
+			color: #666;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.menu-item .price {
+			color: #333;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="hotel.html">Home</a></li>
+                <li><a href="hotelMenu.html">Menu</a></li>
+                <li><a href="hotelBooktable.html">Book</a> </li>
+                <li><a href="hotelAboutus.html">About</a></li>
+                <li><a href="hotelContactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Food Menu</h1>
+	<div style="text-align: center;">
+	<select onchange="window.location.href=this.value;">
+		<option value="hotelMenu.html">Appetizers</option>
+		<option value="page2.html">Staters</option>
+		<option value="page3.html">Main Course</option>
+		<option value="page4.html" selected>Dessert</option>
+		<option value="page5.html">Drinks</option>
+	</select>
+	</div>
+	  
+	<div class="menu-item">
+		<h2>Gulab Jamun</h2>
+		<p>Deep-fried milk solids in sugar syrup</p>
+		<div class="price">Rs.90</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Ras Malai</h2>
+		<p>Cottage cheese dumplings in sweetened milk</p>
+		<div class="price">Rs.120</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Kulfi</h2>
+		<p>Indian-style ice cream made with condensed milk and flavored with saffron or pistachios</p>
+		<div class="price">Rs.60</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Rasgulla</h2>
+		<p>Soft and spongy cottage cheese balls cooked in sugar syrup, flavored with cardamom and rose water.</p>
+		<div class="price">Rs.80</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Gajar ka Halwa</h2>
+		<p>A sweet and creamy dessert made with grated carrots, milk, sugar, and flavored with cardamom and saffron.</p>
+		<div class="price">Rs.130</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Kheer</h2>
+		<p>A rice pudding made with milk, rice, sugar, and flavored with cardamom, saffron, and nuts like almonds and cashews.</p>
+		<div class="price">Rs.190</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Jalebi</h2>
+		<p>A popular street food sweet made by deep-frying a wheat flour batter in pretzel or circular shapes, then soaking them in sugar syrup.</p>
+		<div class="price">Rs.88</div>
+	</div>
+
+	<div class="menu-item">
+		<h2>Kulfi Falooda</h2>
+		<p>A rich and creamy ice cream made with condensed milk, flavored with saffron, pistachios, and almonds, and served with sweet vermicelli noodles and rose syrup.</p>
+		<div class="price">Rs.100</div>
+	</div>
+</body>
+</html>

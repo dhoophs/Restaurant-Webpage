@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Royal Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hotelstyle.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="hotel.html">Home</a></li>
+                    <li><a href="hotelMenu.html">Menu</a></li>
+                    <li><a href="hotelBooktable.html">Book</a> </li>
+                    <li><a href="hotelAboutus.html">About</a></li>
+                    <li><a href="hotelContactUs.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form method="post" action="hotelinfo.php">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+    
+                    <input type="submit" value="Send">
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
+
